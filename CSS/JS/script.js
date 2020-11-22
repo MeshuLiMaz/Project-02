@@ -19,7 +19,7 @@ $( document ).ready(function() {
 
             for (let image of giphyResponse.data) {
                 let imgHtml = '<img src=${image.images.original.url} />'
-                $('#search-results').append(imgHtml);
+                $('#search-results').html(imgHtml);
             }
         });
 
