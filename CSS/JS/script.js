@@ -20,7 +20,7 @@ $( document ).ready(function() {
 
       console.log(searchTerm);
 
-      let url = "https://api.giphy.com/v1/gifs/search?api_key=4zv45wmD5vJvLn2UE3B4tNBY1ny9kZZV&q=" + searchTerm;
+      let url = "https://api.giphy.com/v1/gifs/search?api_key=VT3E7s35IVGNTJL23r5PgMJQjp4u3ydt" + searchTerm;
 
 
       // jquery way of doin it
